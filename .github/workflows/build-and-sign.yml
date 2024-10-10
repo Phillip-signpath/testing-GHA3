@@ -12,7 +12,7 @@ on:
 jobs:
   build_and_sign:
     runs-on: windows-latest
-    timeout-minutes: 1
+   
     steps:
 
     - name: checkout
